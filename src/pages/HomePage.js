@@ -4,6 +4,7 @@ import Carousel from "../components/Carousel";
 import { About } from "../components/About";
 import { Restaurants } from "../components/Restaurants";
 import { ContactUs } from "../components/ContactUs";
+import { Map } from "../components/Map";
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
       <About />
       <Restaurants />
       <ContactUs />
+      <Map />
     </div>
   );
 }
