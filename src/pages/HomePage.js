@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Carousel from "../components/Carousel";
 import { About } from "../components/About";
 import { Restaurants } from "../components/Restaurants";
+import { ContactUs } from "../components/ContactUs";
 
 function HomePage() {
   return (
@@ -11,6 +12,7 @@ function HomePage() {
       <Carousel />
       <About />
       <Restaurants />
+      <ContactUs />
     </div>
   );
 }
