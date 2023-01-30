@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../app/assets/img/logo.png";
+import cartIcon from "../app/assets/icons/cart.svg";
 
 function Header() {
   return (
@@ -9,21 +11,21 @@ function Header() {
           <div className="collapse navbar-collapse justify-content-center order-lg-1 order-3 main-menu mx-3">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item ">
-                <a className="nav-link" href="#rest-section">
+                <Link className="nav-link" to="/markets">
                   FRENCH MARKETS<span className="sr-only">(current)</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/restaurants">
                   RESTAURANTS
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
 
-          <a className="navbar-brand order-1 mr-lg-0" href="#">
+          <Link className="navbar-brand order-1 mr-lg-0" to="/">
             <img src={Logo} alt="LOGO" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler order-2"
             type="button"
@@ -39,14 +41,19 @@ function Header() {
           <div className="collapse navbar-collapse justify-content-center order-lg-3 order-4 main-menu mx-3">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/catering">
                   CATERING & EVENTS <span className="sr-only">(current)</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/contact">
                   CONTACT
-                </a>
+                </Link>
+              </li>
+              <li>
+                <Link to="/cart">
+                  <img src={cartIcon} alt="cart" />
+                </Link>
               </li>
             </ul>
           </div>

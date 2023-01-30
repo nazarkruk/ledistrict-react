@@ -161,6 +161,10 @@ ul {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   text-align: center;
+  color: rgb(255, 255, 255);
+  list-style: none !important;
+  text-decoration: none;
+  padding-left: 0 !important;
 }
 
 footer h6 {
@@ -211,7 +215,7 @@ footer ul li {
   display: block;
 }
 footer ul {
-  padding-left: 0;
+  padding: left 0;
 }
 
 footer ul li a {

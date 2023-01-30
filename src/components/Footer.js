@@ -10,17 +10,9 @@ export const Footer = () => {
             <div className="logo-part ">
               <img src={Logo} className="w-50 logo-footer" />
               <p>225 Liberty Street, NYC</p>
-              <div className="social d-flex justify-content-center">
-                <a href="#">
-                  <i className="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i className="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-              </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 px-4">
+          <div className="col-md-6 col-lg-3 ">
             <h6>MARKETS</h6>
             <ul>
               <li>
@@ -60,6 +52,14 @@ export const Footer = () => {
             <div className="form-footer my-3 ">
               <input type="text" placeholder=" e-mail..." name="subscribe" />
               <input type="button" value="GO" />
+            </div>
+            <div className="social d-flex justify-content-center">
+              <a href="#">
+                <i className="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i className="fa fa-instagram" aria-hidden="true"></i>
+              </a>
             </div>
           </div>
         </div>
