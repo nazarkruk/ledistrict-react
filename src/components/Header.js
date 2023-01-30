@@ -50,7 +50,7 @@ function Header() {
                   CONTACT
                 </Link>
               </li>
-              <li>
+              <li className="nav-item">
                 <Link to="/cart">
                   <img src={cartIcon} alt="cart" />
                 </Link>
