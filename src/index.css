@@ -164,7 +164,7 @@ ul {
   color: rgb(255, 255, 255);
   list-style: none !important;
   text-decoration: none;
-  padding-left: 0 !important;
+  /* padding-left: 0 !important; */
 }
 
 footer h6 {

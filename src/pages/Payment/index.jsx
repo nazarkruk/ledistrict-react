@@ -1,7 +1,7 @@
 import React from "react";
 
-const PaymentSuccess = () => {
+const Payment = () => {
   return <div className="text-white">PaymentSuccess</div>;
 };
 
-export default PaymentSuccess;
+export default Payment;

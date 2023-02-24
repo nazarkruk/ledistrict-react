@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+
 import CarouselImg from "../app/assets/img/carousel-1.jpg";
 
 function Carousel() {
@@ -7,7 +8,7 @@ function Carousel() {
       id="carouselExampleControls"
       className="carousel slide mb-5"
       data-ride="carousel"
-      data-interval="70000"
+      data-interval="1000"
     >
       <div className="carousel-inner">
         <div className="carousel-item active tinted-image">

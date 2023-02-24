@@ -1,7 +1,7 @@
 import React from "react";
 
-const Cart = () => {
+const Contact = () => {
   return <div className="text-white">Cart</div>;
 };
 
-export default Cart;
+export default Contact;
