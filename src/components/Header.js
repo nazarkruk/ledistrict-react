@@ -23,7 +23,7 @@ function Header() {
             </ul>
           </div>
 
-          <Link className="navbar-brand order-1 mr-lg-0" to="/">
+          <Link className="navbar-brand order-1 mx-lg-auto" to="/">
             <img src={Logo} alt="LOGO" />
           </Link>
           <button
