@@ -1,7 +1,12 @@
 import React from "react";
+import HeroSection from "../../components/HeroSection";
 
 const FrenchMarkets = () => {
-  return <div className="text-white">French Markets</div>;
+  return (
+    <>
+      <HeroSection />
+    </>
+  );
 };
 
 export default FrenchMarkets;

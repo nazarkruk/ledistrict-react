@@ -1,7 +1,12 @@
 import React from "react";
+import HeroSection from "../../components/HeroSection";
 
 const Restaurants = () => {
-  return <div className="text-white">Restaurants</div>;
+  return (
+    <>
+      <HeroSection />
+    </>
+  );
 };
 
 export default Restaurants;
