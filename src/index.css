@@ -91,7 +91,9 @@ body {
   color: white;
 }
 .header-img {
-  max-height: 50rem !important ;
+  /* max-height: 50rem !important ; */
+  background-position: center;
+  background-size: cover;
 }
 
 /* RESTAURANTS SECTION */
