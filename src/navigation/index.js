@@ -7,7 +7,7 @@ import Payment from "../pages/Payment";
 import Cart from "../pages/Cart";
 import Register from "../pages/Register";
 import Contact from "../pages/Contact";
-import FrenchMarkets from "../pages/FrenshMarkets";
+import FrenchMarkets from "../pages/FrenchMarkets";
 import Restaurants from "../pages/Restaurants";
 import CateringAndEvents from "../pages/CateringAndEvents";
 
@@ -23,7 +23,7 @@ const Navigation = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/payment-success" element={<Payment />} />
-        <Route path="/french-markets" element={<FrenchMarkets />} />
+        <Route path="/markets" element={<FrenchMarkets />} />
         <Route path="/restaurants" element={<Restaurants />} />
         <Route path="/catering-and-events" element={<CateringAndEvents />} />
       </Routes>
