@@ -15,8 +15,6 @@ function Contact() {
         subTitle="FRENCH SAVOIR FAIRE IN THE HEART OF DOWNTOWN NYC"
         imgUrl={HomeHero}
       />
-      <About />
-      <Restaurants />
       <ContactUs />
       <Map />
       <Footer />
